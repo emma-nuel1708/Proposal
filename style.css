@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding: 30px 20px;
+  background-color: #ffcccc;
+}
+
+.heart1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.heart1 .img1 {
+  padding-top: 100px;
+}
+.heart {
+  top: 0;
+  margin-top: 150px;
+  position: absolute;
+  display: flex;
+  gap: 500px;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: aqua;
+  margin: 0 auto;
+}
