@@ -19,14 +19,14 @@ body {
     -apple-system,
     sans-serif;
   color: #333;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
 .container {
   position: relative;
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: 0 auto;
-  padding: 60px 20px 100px;
+  padding: 60px 20px 30px;
   text-align: center;
 }
 
@@ -38,6 +38,7 @@ body {
   pointer-events: none;
   font-size: 1.8rem;
   animation: float 18s infinite ease-in-out;
+  z-index: -1;
 }
 
 .heart:nth-child(1) {
@@ -350,6 +351,10 @@ body {
     height: auto;
     min-height: 100vh;
     gap: 0;
+    overflow-y: scroll;
+  }
+  body{
+    overflow-y: scroll;
   }
 
   .photo-side {
@@ -413,8 +418,11 @@ body {
     flex-direction: column;
     height: auto;
     overflow-x: hidden;
+    overflow-y: scroll;
   }
-
+body{
+  overflow-y: scroll;
+}
   .photo-side {
     height: 50vh;
     min-height: 300px;
@@ -450,7 +458,8 @@ body {
     flex-direction: row;
     height: 100vh;
     gap: 0;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
   }
 
   .photo-side {
