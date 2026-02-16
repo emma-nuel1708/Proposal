@@ -10,7 +10,7 @@ body {
 body {
   margin: 0;
   background: #111;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .stage {
@@ -35,7 +35,7 @@ body {
   position: relative;
   background: white;
   transform-origin: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .circle {
@@ -90,7 +90,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Fira Code", monospace;
   font-size: 40px;
   letter-spacing: 1.5px;
   font-weight: 700;
@@ -188,19 +188,9 @@ a {
   opacity: 0.16;
 }
 
-
 @media (max-width: 1024px) {
   body {
-    font-size: 16px; 
-  }
-
-  .artboard,
-  .artboard2 {
-    background: linear-gradient(
-      180deg,
-      #ffd1d4 0%,
-      #f9c8ce 100%
-    ); 
+    font-size: 16px;
   }
 
   .circle {
@@ -250,7 +240,6 @@ a {
     transform: translateY(0);
   }
 
-
   .heart.tr,
   .heart.bl,
   .heart.tiny {
@@ -280,7 +269,6 @@ a {
     padding: 40px 0;
   }
 }
-
 
 @media (max-width: 680px) {
   .circle {
@@ -312,7 +300,6 @@ a {
     width: 140px;
   }
 }
-
 
 @media (max-width: 420px) {
   .stage {
@@ -350,6 +337,6 @@ a {
 
   .lorem {
     font-size: 14.5px;
-    padding: 30px 18px;
+    /* padding: 30px 18px; */
   }
 }
