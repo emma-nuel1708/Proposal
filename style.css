@@ -37,7 +37,7 @@ body {
   /* opacity: 0.55; */
   pointer-events: none;
   font-size: 1.8rem;
-  animation: float 18s infinite ease-in-out;
+  animation: float 20s infinite ease-in-out;
   z-index: -1;
 }
 
@@ -153,27 +153,27 @@ body {
 
 .photo:nth-child(1) {
   transform: rotate(-24deg) translateY(12px);
-  animation: float 17s infinite ease-in-out;
+  animation: float 2.4s infinite ease-in-out;
 }
 
 .photo:nth-child(2) {
   transform: rotate(-12deg) translateY(4px);
-  animation: float 17s infinite ease-in-out;
+   animation: float 2.4s infinite ease-in-out;
 }
 
 .photo:nth-child(3) {
   transform: rotate(0deg);
-  animation: float 17s infinite ease-in-out;
+    animation: float 2.4s infinite ease-in-out;
 }
 
 .photo:nth-child(4) {
   transform: rotate(6deg) translateY(4px);
-  animation: float 17s infinite ease-in-out;
+    animation: float 2.4s infinite ease-in-out;
 }
 
 .photo:nth-child(5) {
   transform: rotate(11deg) translateY(14px);
-  animation: float 17s infinite ease-in-out;
+    animation: float 2.4s infinite ease-in-out;
 }
 
 /* Text */
